@@ -7,25 +7,27 @@ One of the experiments involves reproducing the neural network from the [Machine
 
 ## Cloning the Project and Installing the Dependencies
 
-1. Run the following command in a directory of your choice
+1. Install Python 3.12 on your system
+
+2. Run the following command in a directory of your choice
 
 ```
 git clone https://github.com/alexandrutodea/ember2018-experiments
 ```
 
-2. Change the directory to the newly cloned directory
+3. Change the directory to the newly cloned directory
 
 ```
 cd ember2018-experiments
 ```
 
-3. Create a virtual environment
+4. Create a virtual environment
 
 ```
-python -m venv ember2018-experiments-venv
+python3 -m venv ember2018-experiments-venv
 ```
 
-4. Activate the virtual environment
+5. Activate the virtual environment
 
 ```
 source ember2018-experiments-venv/bin/activate
