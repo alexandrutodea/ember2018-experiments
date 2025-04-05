@@ -22,7 +22,7 @@ cd ember2018-experiments
 3. Create a virtual environment
 
 ```
-python3 -m venv ember2018-experiments-venv
+python -m venv ember2018-experiments-venv
 ```
 
 4. Activate the virtual environment
