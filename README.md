@@ -78,8 +78,6 @@ echo -e 'import ember\nember.create_vectorized_features(".")\n_ = ember.create_m
 python vectorize_features.py
 ```
 
-![CleanShot 2025-04-06 at 18 40 54](https://github.com/user-attachments/assets/31bc9ef2-650a-4658-a0cf-e9952cb6d59f)
-
 8. Once the execution has finished, run the following command:
 
 ```
