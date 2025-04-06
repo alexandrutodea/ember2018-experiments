@@ -29,7 +29,13 @@ git clone https://github.com/elastic/ember
 cd ember
 ```
 
-3. Navigate to the features.py file inside the ember directory in the newly cloned project and modify line 192 to the following (see [this comment](https://github.com/elastic/ember/issues/103#issuecomment-1623975101) in [elastic/ember issue #103](https://github.com/elastic/ember/issues/103)):
+3. Open the newly cloned project in a file explorer:
+
+```
+open .
+``` 
+
+4. Open the features.py file inside the ember directory in the newly cloned project and modify line 192 to the following (see [this comment](https://github.com/elastic/ember/issues/103#issuecomment-1623975101) in [elastic/ember issue #103](https://github.com/elastic/ember/issues/103)):
 
 ```
 entry_name_hashed = FeatureHasher(50, input_type="string").transform([[raw_obj['entry']]]).toarray()[0]
