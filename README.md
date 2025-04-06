@@ -139,7 +139,7 @@ jupyter notebook .
 ```
 
 2. Open the **ember2018-experiments.ipynb** file
-3. Use Ctrl + F or Command + F to search for "UPDATE THIS PATH". Two occurrences should appear.
+3. Use **Ctrl + F** or **Command + F** to search for "UPDATE THIS PATH". Two occurrences should appear.
 4. For the first occurrence, replace **/Users/alexandrutodea/Downloads/ember2018_data** with the path to the **ember2018_data** folder which was populated with the EMBER2018 .dat files using Docker in the previous section. Keep the double quotes.
 
 ```python
