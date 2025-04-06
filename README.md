@@ -15,7 +15,7 @@ One of the experiments involves reproducing the neural network from the [Machine
 3. Decompress the file downloaded in step 2. It may take a while.
 4. Rename the decompressed file to "ember2018_data"
 
-### Cloning and Modifying the EMBER2018 repository
+### Cloning and Modifying the EMBER2018 Repository
 
 1. Run the following command in a directory of your choice
 
