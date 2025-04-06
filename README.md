@@ -41,6 +41,8 @@ open .
 entry_name_hashed = FeatureHasher(50, input_type="string").transform([[raw_obj['entry']]]).toarray()[0]
 ```
 
+5. Save the changes to the features.py file
+
 ### Using Docker to Get the Dataset Ready
 
 1. Ensure that [Docker](https://www.docker.com) version 4.37.2 or later is installed and running
