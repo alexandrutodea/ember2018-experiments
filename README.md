@@ -53,7 +53,7 @@ entry_name_hashed = FeatureHasher(50, input_type="string").transform([[raw_obj['
 docker build -t ember-image .
 ```
 
-4. Run the following command, replacing **INSERT_PATH_TO_EMBER2018_DATA_DIRECTORY_ON_HOST** with the path of the folder that was obtained as a result of decompressing the compressed EMBER2018 dataset downloaded from the EMBER2018 repository. The name of the folder must be **ember2018_data**:
+4. Run the following command, replacing **INSERT_PATH_TO_EMBER2018_DATA_DIRECTORY_ON_HOST** with the path of the folder that was obtained as a result of decompressing the EMBER2018 dataset downloaded from the EMBER2018 repository. The name of the folder must be **ember2018_data**:
 
 ```
 docker run -it -v INSERT_PATH_TO_EMBER2018_DATA_DIRECTORY_ON_HOST:/ember ember-image
