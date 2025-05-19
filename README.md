@@ -13,7 +13,7 @@ One of the experiments involves reproducing the neural network from the [Machine
 2. Click the URL to download the compressed EMBER2018 dataset with the second feature version. It may take a while.
 ![CleanShot 2025-04-06 at 16 34 50@2x](https://github.com/user-attachments/assets/f97fa1a7-0db9-4354-97b1-4437e0a6fa28)
 3. Decompress the file downloaded in step 2. It may take a while.
-4. Rename the decompressed file to "ember2018_data"
+4. Rename the decompressed folder to "ember2018_data"
 
 ### Cloning and Modifying the EMBER2018 Repository
 
