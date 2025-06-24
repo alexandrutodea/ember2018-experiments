@@ -158,3 +158,19 @@ path = "./DLModel.weights.h5"
 ```
 
 7. Any of the cells in the Jupyter Notebook can now be run using **Shift + Enter**
+
+# EMBER2018 feature groups
+
+EMBER2018 with feature version 2 contains 2,381 features extracted from the samples grouped into nine feature groups. The table below lists the nine feature groups and descriptions for each of them.
+
+| **Feature Group**             | **Description** |
+|------------------------------|-----------------|
+| `General File Information`   | General PE file information: file size, virtual size, presence of debug information section, presence of resources, presence of digital signature, presence of TLS directory, etc. |
+| `Header Information`         | PE header metadata: first appeared timestamp, target machine type, characteristics, size of code sections, size of headers, size reserved on the heap prior to running etc. |
+| `Imported Functions`         | Dictionary of imported DLLs and their respective function names |
+| `Exported Functions`         | List of exported function names |
+| `Section Information`        | Information about sections: name, size, virtual size, entropy, and properties for each PE section. |
+| `Byte Histogram`             | Frequency histogram of byte values (0–255) in the PE file. |
+| `Byte-Entropy Histogram`     | A window of X bytes is slid across the PE file. For each segment of X bytes captured by the window, the value of each byte in the segment is recorded along with the segment's entropy. The results are represented in a two-dimensional (2D) histogram using bins for the entropy on one axis and bins for the byte values on the other axis (see Figure \ref{fig:byte-entropy-histogram} for an example). |
+| `String Information`         | Aggregated features from printable strings in the PE file: printable character count, average string length, frequency histogram of the printable characters, etc. |
+| `Data Directories`           | Sizes of standard PE data directories (e.g., import table, export table, and resource table). |
